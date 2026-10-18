@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto' , sans-serif;
+    display: flex; 
+    flex-direction: column;
+    margin : 0;
+}
+.top {
+    background-color: #1F2937;
+    padding : 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    margin : 0;
+    padding : 0;
+    display : flex;
+    list-style: none;
+    gap : 20px;
+    font-weight: 0;
+    font-size: 15px;
+}
+.text {
+    display : flex;
+    color : white;
+}
+a {
+    padding : 20px;
+    text-decoration: none;
+    color : white;
+}
+.chosa-hedan {
+    height: 60px;
+    width : 80px;
+}
+.main-text {
+  font-size: 48px;
+  color : #F9FAF8;
+  font-weight: 900;   
+}
+.bottom {
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+}
+.copy-right {
+    color : white;
+}
+.logo-part {
+    font-size: 24px;
+    color : #F9FAF8;
+}
