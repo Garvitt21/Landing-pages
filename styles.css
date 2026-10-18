@@ -128,4 +128,13 @@ button {
     flex-direction: column;
     padding: 50px;
     align-items: center;
+    gap: 40px;
+}
+#part1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+#part2 {
+    display : flex;
+    gap :20px;
 }
