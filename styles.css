@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     height: 100vh;
     font-family: 'Roboto' , sans-serif;
@@ -8,10 +11,21 @@ body {
 .top {
     background-color: #1F2937;
     padding : 20px;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* max-width: 500px; */
+    /* margin : 0 auto; */
 }
 .header {
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin-left: 90px;
+    margin-right: 90px;
+    /* margin : 0 auto; */
 }
 ul {
     margin : 0;
@@ -25,20 +39,23 @@ ul {
 .text {
     display : flex;
     color : white;
+    margin-top : 100px;
+    margin-bottom: 50px;
+    gap: 100px;
 }
 a {
-    padding : 20px;
+    /* padding : p; */
     text-decoration: none;
     color : white;
-}
-.chosa-hedan {
-    height: 60px;
-    width : 80px;
 }
 .main-text {
   font-size: 48px;
   color : #F9FAF8;
   font-weight: 900;   
+}
+.sub-text {
+    font-size:  18px;
+    color :  #E5E7EB;
 }
 .bottom {
     background-color: #1F2937 ;
@@ -53,4 +70,41 @@ a {
 .logo-part {
     font-size: 24px;
     color : #F9FAF8;
+}
+.text-part {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap : 10px;
+    max-width: 500px;;
+    /* align-self: stretch; */
+}
+p {
+   margin : 0; 
+}
+button {
+    border-radius: 6px;
+    background-color: #3882F6;
+    color : white;
+    padding : 5px 10px;
+    /* flex: 0 1 auto; */
+}
+.image-part img {
+    width: 100%;
+    height: auto;
+}
+.text-part,
+.image-part {
+  flex: 1;
+  /* height: ,/; */
+}
+.upper-button {
+   height: 30px;
+   width: 90px;
+}
+.middle {
+    padding : 100px;
+    background-color: #E5E7EB;
+    
 }
