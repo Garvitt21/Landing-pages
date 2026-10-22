@@ -165,7 +165,7 @@ button {
     flex-wrap:wrap;
 }
 .bottom-middle {
-    padding : 50px;
+    padding : 60px;
 }
 .Tab {
     display : flex ;
@@ -173,4 +173,19 @@ button {
     justify-content: space-between;
     background-color: #3882F6;
     color : white;
+    border-radius: 15px;
+    height: 150px;
+    align-items: center;
+}
+.call-action {
+    font-size: 20px;
+    font-weight: bold;
+}
+.button-sign {
+    border: 2px solid white;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 3px 20px;
 }
